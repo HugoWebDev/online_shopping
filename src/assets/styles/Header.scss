@@ -1,0 +1,28 @@
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  a {
+    font-size: 18px;
+    margin: auto 15px;
+    text-decoration: none;
+    color: rgb(76, 74, 74);
+  }
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .d-md-none {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  .d-md-block {
+    display: none;
+  }
+}
